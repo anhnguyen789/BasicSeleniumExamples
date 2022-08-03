@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="firefoxPath" value="D:\\HoangAnh\\software\\selenium\\geckodriver-v0.31.0-win64\\geckodriver.exe"/>
+  <parameter name="chromePath" value="D:\\HoangAnh\\software\\selenium\\chromedriver_win32\\chromedriver.exe"/>
+  <test thread-count="2" name="Test(failed)">
+    <classes>
+      <class name="testcases.DemoCheckboxTest">
+        <methods>
+          <include name="checkboxTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.DemoCheckboxTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
